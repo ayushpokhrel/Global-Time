@@ -1,6 +1,6 @@
-const Showtime=()=>{
+const Showtime=()=>{  let location=document.getElementById('locs').value;
    const Time=()=>{
-    let location=document.getElementById('locs').value;
+  
     const time=new Date().toLocaleTimeString('en-US',{
         timeZone:location,
         hour:'2-digit',
