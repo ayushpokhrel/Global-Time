@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+    {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f8f5f5;
+    height: 100vh;
+    }
+
+.title
+    {
+    text-transform: uppercase;
+    font-size: 62px;
+    margin-top:30px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Mogra', cursive;
+    font-family: 'Shantell Sans', cursive;
+    color: blueviolet;
+    }
+
+
+.searchbox
+    {
+        margin-top: 60px;
+        text-align: center;
+        
+    }
+
+input[type="text"]
+{
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+#srchbtn
+{
+    background-color: white;
+   padding: 15px;
+   border-radius: 8px;
+}
+
+
+.resultbox{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+
+}
